@@ -1,1 +1,1 @@
-Sitemap: http://dvaitheesh.com/sitemap.xml
+Sitemap: https://dvaitheesh.com/sitemap.xml
