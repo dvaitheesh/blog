@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-Consulting, Data Science, Digital Transformation
+Consulting, Data Science and Digital Transformation
