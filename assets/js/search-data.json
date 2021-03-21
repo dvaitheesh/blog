@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "101 Exploratory Data Analysis",
+            "content": "Estimates of Location - Mean, Weighted Mean, Median, Percentile, Weighted median, Trimmed mean, Outlier . Impoting libraries . import pandas as pd import numpy as np from scipy.stats import trim_mean . ds = pd.read_csv(&#39;./../data/state.csv&#39;) . Summary Statistics . ds.describe() . Population Murder.Rate . count 5.000000e+01 | 50.000000 | . mean 6.162876e+06 | 4.066000 | . std 6.848235e+06 | 1.915736 | . min 5.636260e+05 | 0.900000 | . 25% 1.833004e+06 | 2.425000 | . 50% 4.436370e+06 | 4.000000 | . 75% 6.680312e+06 | 5.550000 | . max 3.725396e+07 | 10.300000 | . Mean Murder Rate . ds[&#39;Murder.Rate&#39;].mean() . 4.066 . Trimmed mean - slices off ‘leftmost’ and ‘rightmost’ 10% of data points . trim_mean(ds[&#39;Murder.Rate&#39;], 0.1) . 3.9450000000000003 .",
+            "url": "https://dvaitheesh.com/statistics/2021/03/20/Exploratory-Data-Analysis.html",
+            "relUrl": "/statistics/2021/03/20/Exploratory-Data-Analysis.html",
+            "date": " • Mar 20, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://dvaitheesh.com/markdown/2020/01/14/test-markdown-post.html",
